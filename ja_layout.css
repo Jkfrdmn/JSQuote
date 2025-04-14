@@ -78,16 +78,17 @@ article img {
    margin: 0px 20px 20px 20px;
 }
 
-/* Quotation Styles */
-#quote-box {
-   background-color: #f4a261; /* Orangish background */
-   color: white;              /* Text color */
-   padding: 20px;             /* Spacing inside the box */
-   border-radius: 8px;        /* Rounded corners */
-   font-style: italic;        /* Italicize the quote */
-   font-size: 1.2em;          /* Slightly larger font */
-   margin: 20px 0;            /* Space around the quote box */
-   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for effect */
+.quote-box {
+   background-color: #ffcc80;  
+   padding: 20px;
+   margin: 20px 0;
+   font-size: 1.5em;
+   line-height: 1.4;
+   border-radius: 15px;
+   font-family: "Times New Roman", Times, serif;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+   border: 2px solid #ff9800; 
+}
 }
 
 article quote {
