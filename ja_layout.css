@@ -3,22 +3,10 @@
 @font-face {
    font-family: Dobkin;
    src: url(DobkinPlain.woff) format('woff'),
-	url(DobkinPlain.ttf) format('ttf');
+       url(DobkinPlain.ttf) format('ttf');
 }
 
-/*
-   New Perspectives on HTML5 and CSS3, 7th Edition
-   Tutorial 9
-   Case Problem 2
-   
-
-   Bridger College Student Union Layout Style Sheet
-
-*/
-
-
 /* HTML and Body Styles */
-
 html {
    background: rgb(199, 227, 205);
    font-family: Verdana, Geneva, sans-serif;
@@ -44,9 +32,7 @@ p {
    margin: 15px;
 }
 
-
 /* Header Styles */
-
 body > header {
    width: 100%;
 }
@@ -56,13 +42,9 @@ body > header > img {
    width: 100%;
 }
 
-
-
 /* Sidebar Navigation Styles */
-
-
 nav#sidebar {
-   =webkit-flex: 0 1 200px;
+   -webkit-flex: 0 1 200px;
    flex: 0 1 200px;
 }
 
@@ -85,7 +67,6 @@ nav#sidebar li a {
 }
 
 /* Article Styles */
-
 article {
    -webkit-flex: 2 1 400px;
    flex: 2 1 400px;
@@ -98,6 +79,16 @@ article img {
 }
 
 /* Quotation Styles */
+#quote-box {
+   background-color: #f4a261; /* Orangish background */
+   color: white;              /* Text color */
+   padding: 20px;             /* Spacing inside the box */
+   border-radius: 8px;        /* Rounded corners */
+   font-style: italic;        /* Italicize the quote */
+   font-size: 1.2em;          /* Slightly larger font */
+   margin: 20px 0;            /* Space around the quote box */
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for effect */
+}
 
 article quote {
    background: rgb(250, 192, 116);
@@ -126,7 +117,6 @@ article quote::after {
 }
 
 /* Footer Styles */
-
 footer {
    width: 100%;
 }
@@ -140,9 +130,7 @@ footer p {
    padding: 10px 0px;
 }
 
-
 /* Bottom Navigation List Styles */
-
 nav#bottom {
    background-color: rgb(126, 66, 13);
    color: rgb(211, 211, 211);
@@ -158,10 +146,7 @@ nav#bottom ul a {
    color: white;
 }
 
-
-
 /* Bottom Navigation Styles */
-
 nav#bottom {
    display: -webkit-flex;
    display: flex;
