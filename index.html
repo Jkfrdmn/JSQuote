@@ -1,18 +1,18 @@
-<!--
-   New Perspectives on HTML5 and CSS3, 7th Edition
-   Tutorial 9
-   Case Problem 3
-
-   Austen Vynes home page
-   Author: Jake Friedman
-   Date: 4/14/2025
-
-   Filename: ja_vynes.html
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <!--
+      New Perspectives on HTML5 and CSS3, 7th Edition
+      Tutorial 9
+      Case Problem 3
+
+      Austen Vynes home page
+      Author: Jake Friedman
+      Date: 4/14/2025
+
+      Filename: ja_vynes.html
+   -->
+   
    <meta charset="utf-8" />
    <title>Austen Vynes</title>
    <link href="ja_base.css" rel="stylesheet" />
@@ -37,8 +37,13 @@
    <article>
       <blockquote id="austen-quote"></blockquote>
       <img src="ja_portrait.png" alt="Portrait of Jane Austen" />
-      <p>Jane Austen, born on December 16, 1775, is widely considered one of England’s foremost novelists...</p>
-      <!-- remaining paragraphs -->
+      <p>Jane Austen, born on December 16, 1775, is widely considered one of England’s foremost novelists. She is known for her keen observations of the social dynamics and romantic relationships of her time. Austen's most famous works include "Pride and Prejudice," "Sense and Sensibility," and "Emma."</p>
+
+      <p>Her novels, which include themes of love, marriage, and social standing, continue to resonate with readers today. Austen's witty and satirical writing style has earned her a loyal following, and her influence on English literature is undeniable.</p>
+
+      <p>Austen died on July 18, 1817, at the age of 41, but her works remain popular and continue to be adapted into film, television, and theater productions. Her sharp dialogue, memorable characters, and biting commentary on social class and gender roles have made her a beloved figure in the literary world.</p>
+
+      <p>Join us as we explore the world of Jane Austen, her timeless works, and the lasting impact she has had on literature and culture.</p>
    </article>
 
    <footer>
@@ -67,11 +72,12 @@
       <p>Austen Vynes &copy; 2018 All Rights Reserved</p>
    </footer>
 
+
    <script src="ja_quote_text.js"></script>
    <script>
-      const quoteIndex = Math.floor(Math.random() * 10);
-      const quoteText = getQuote(quoteIndex);
-      document.getElementById("austen-quote").textContent = quoteText;
+      const quoteIndex = Math.floor(Math.random() * 10);  
+      const quoteText = getQuote(quoteIndex);             
+      document.getElementById("austen-quote").textContent = quoteText; 
    </script>
 </body>
 </html>
